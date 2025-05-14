@@ -20,6 +20,7 @@ div li{
     background-color: #0b5394;
     margin: 10px 20px;
     border-radius: 20px;
+    color : white;
 }
 div a{
     height: 100%;
@@ -29,7 +30,7 @@ div a{
     background-color: #0b5394;
     border-radius: 20px;
     padding: 10px 20px;
-    color: black;
+    color: white;
 
 }
 div ul{
@@ -41,7 +42,7 @@ div ul{
 }
 div a:hover{
     background: #9fc5e8;
-    color: white;
+    color: black;
 }
 .skills li{
     padding: 10px 20px;
@@ -137,10 +138,11 @@ padding: 10px 20px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    color: white;
 }
 button:hover{
     background-color: #9fc5e8;
-    color: white;
+    color: black;
 }
 @media(max-width: 600px){
     .hideOnMobile{
